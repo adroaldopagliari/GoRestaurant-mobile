@@ -68,7 +68,7 @@ const Dashboard: React.FC = () => {
         if (searchValue) {
           queryParam = `${queryParam}&name_like=${searchValue}`;
         }
-      } else if (searchValue) {
+      } else {
         queryParam = `?name_like=${searchValue}`;
       }
 
